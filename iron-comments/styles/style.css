@@ -3,9 +3,12 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color:  rgb(25, 33, 41);
 }
 
 #form-container {
     margin: auto;
+    width: 50%;
+    border: 1px solid rgb(67, 163, 230);
+    color: white;
 }
