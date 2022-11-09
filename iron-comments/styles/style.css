@@ -8,7 +8,28 @@ body {
 
 #form-container {
     margin: auto;
-    width: 50%;
+    width: 250px;
     border: 1px solid rgb(67, 163, 230);
-    color: white;
+    color: rgb(255,255,255);
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+#form-container input:not([type="checkbox"]) {
+    display: block;
+}
+
+#form-container input:not([type="checkbox"]):not([type="submit"]) {
+    width: 90%;
+    padding: 0.2em 0 0.2em 0;
+} 
+
+#form-container textarea {
+    display: block;
+    width: 90%;
+    height: 10em;
+}
+
+#submit-button {
+    background-color: rgb(67, 163, 230);
 }
