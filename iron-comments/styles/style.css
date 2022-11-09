@@ -12,7 +12,7 @@ body {
     border: 1px solid rgb(67, 163, 230);
     color: rgb(255,255,255);
     box-sizing: border-box;
-    padding: 1em;
+    padding: 1.5em;
 }
 
 #form-container input:not([type="checkbox"]) {
@@ -20,16 +20,29 @@ body {
 }
 
 #form-container input:not([type="checkbox"]):not([type="submit"]) {
-    width: 90%;
+    width: 85%;
     padding: 0.2em 0 0.2em 0;
 } 
 
 #form-container textarea {
     display: block;
-    width: 90%;
+    width: 85%;
     height: 10em;
 }
 
 #submit-button {
     background-color: rgb(67, 163, 230);
+    color: rgb(255,255,255);
+    border-radius: 10px;
+    padding: 5px 8px;
+    border: none;
+    margin-top: 5px;
+}
+
+label[for="updates"] {
+    font-style: italic;
+}
+
+#form-container > label {
+    font-weight: 500;
 }
